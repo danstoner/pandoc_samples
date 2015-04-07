@@ -47,7 +47,7 @@ Century Schoolbook L
 <snip>
 ```
 
-The full list (from my system) is in [samples_xelates/list_of_pdflatex_usable_fonts.txt](samples_xelates/list_of_pdflatex_usable_fonts.txt)
+The full list (from my system) is in [samples_xelatex/list_of_xelatex_usable_fonts.txt](samples_xelatex/list_of_xelatex_usable_fonts.txt)
 
 The following command generates a PDF with the specified font using the xelatex engine:
 ```bash

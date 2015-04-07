@@ -1,0 +1,134 @@
+Accanthis ADF Std
+Accanthis ADF Std No2
+Accanthis ADF Std No3
+Andale Mono
+Arial 
+Arial Black
+Asana Math
+Bitstream Charter
+Cabin 
+Century Schoolbook L
+cmmi10 
+cmr10 
+cmsy10 
+Comfortaa 
+Comic Sans MS
+Courier 
+Courier New
+DejaVu Sans
+DejaVu Sans Mono
+DejaVu Serif
+Dingbats 
+Droid Arabic Naskh
+Droid Sans
+Droid Sans Armenian
+Droid Sans Ethiopic
+Droid Sans Fallback
+Droid Sans Georgian
+Droid Sans Hebrew
+Droid Sans Japanese
+Droid Sans Mono
+Droid Sans Thai
+Droid Serif
+eufm10 
+FontAwesome 
+FreeMono 
+FreeSans 
+FreeSerif 
+Gentium 
+GentiumAlt 
+Gentium Basic
+Gentium Book Basic
+Georgia 
+GFS Artemisia
+GFS Complutum
+GFS Didot
+GFS Neohellenic
+GFS Olga
+GFS Solomos
+Gillius ADF
+Gillius ADF Cd
+Gillius ADF No2
+Gillius ADF No2 Cd
+Impact 
+Inconsolata 
+Junicode 
+Latin Modern Math
+Latin Modern Mono
+Latin Modern Mono Caps
+Latin Modern Mono Light
+Latin Modern Mono Light Cond
+Latin Modern Mono Prop
+Latin Modern Mono Prop Light
+Latin Modern Mono Slanted
+Latin Modern Roman
+Latin Modern Roman Caps
+Latin Modern Roman Demi
+Latin Modern Roman Dunhill
+Latin Modern Roman Slanted
+Latin Modern Roman Unslanted
+Latin Modern Sans
+Latin Modern Sans Demi Cond
+Latin Modern Sans Quotation
+Lato 
+Liberation Mono
+Liberation Sans
+Liberation Sans Narrow
+Liberation Serif
+Linux Biolinum Keyboard O
+Linux Biolinum O
+Linux Libertine Display O
+Linux Libertine Initials O
+Linux Libertine Mono O
+Linux Libertine O
+Lobster Two
+msam10 
+msbm10 
+NanumBarunGothic 
+NanumGothic 
+NanumMyeongjo 
+Nimbus Mono L
+Nimbus Roman No9 L
+Nimbus Sans L
+OpenSymbol 
+rsfs10 
+Standard Symbols L
+STIXGeneral 
+STIXIntegralsD 
+STIXIntegralsSm 
+STIXIntegralsUp 
+STIXIntegralsUpD 
+STIXIntegralsUpSm 
+STIXNonUnicode 
+STIXSizeFiveSym 
+STIXSizeFourSym 
+STIXSizeOneSym 
+STIXSizeThreeSym 
+STIXSizeTwoSym 
+STIXVariants 
+Symbol 
+TeX Gyre Adventor
+TeX Gyre Bonum
+TeX Gyre Chorus
+TeX Gyre Cursor
+TeX Gyre Heros
+TeX Gyre Heros Cn
+TeX Gyre Pagella
+TeX Gyre Schola
+TeX Gyre Termes
+TG Pagella Math
+TG Termes Math
+Times New Roman
+Trebuchet MS
+Ubuntu 
+Ubuntu Condensed
+Ubuntu Mono
+URW Bookman L
+URW Chancery L
+URW Gothic L
+URW Palladio L
+Utopia 
+Verdana 
+Webdings 
+WenQuanYi Micro Hei
+WenQuanYi Micro Hei Mono

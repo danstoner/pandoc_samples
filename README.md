@@ -47,6 +47,8 @@ Century Schoolbook L
 <snip>
 ```
 
+The full list (from my system) is in [](samples_xelates/list_of_pdflatex_usable_fonts.txt)
+
 The following command generates a PDF with the specified font using the xelatex engine:
 ```bash
 $ # single incantation
@@ -81,6 +83,8 @@ pandoc: Error producing PDF from TeX source.
 ### pdflatex engine
 
 pdflatex seems to like latex fonts rather than system fonts. Some latex fonts include bookman, libertine, and lmodern. The font files are expected to have an .sty extension and are specified by using the filename without the .sty on the end. The problem is that .sty files do not seem to be exclusively font files, so searching for all .sty files on your system will find a lot of non-fonts.
+
+The full list (from my system) is in [](samples_pdflatex/list_of_pdflatex_usable_fonts.txt)
 
 Note that I could not get the font (fontfamily) to be applied unless I specified a template file also. The default.latex template installed on my system (with Ubuntu-packaged pandoc) did not seem to work so I used the latest default.latex from https://github.com/jgm/pandoc-templates and put it in the same directory as the source markdown file.
 

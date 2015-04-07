@@ -34,6 +34,17 @@ The following commands generate a list of the "friendly names" known by the syst
 
 ```
 $ fc-list | cut -d: -f2 | cut -d, -f1 | awk '{$2=$2; print}' | sort | uniq
+Accanthis ADF Std
+Accanthis ADF Std No2
+Accanthis ADF Std No3
+Andale Mono
+Arial 
+Arial Black
+Asana Math
+Bitstream Charter
+Cabin 
+Century Schoolbook L
+<snip>
 ```
 
 The following command generates a PDF with the specified font using the xelatex engine:

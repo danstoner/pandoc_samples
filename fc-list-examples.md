@@ -1,4 +1,4 @@
-The fc-list command can be used generate a list of system font manager (via fontconfig).
+The fc-list command can be used generate a list of system fonts known by the font manager (via fontconfig).
 
 The fc-list command's help and man page do not give great information on the --format (-f) option or the proper way to specify pattern or element in order to adjust the output.
 

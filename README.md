@@ -12,7 +12,7 @@ $ pandoc -o samplejohndoeresume.pdf samplejohndoeresume.md
 
 Styling is a bit harder.
 
-I suggest [the pandoc FAQ](http://johnmacfarlane.net/pandoc/faqs.html).
+I suggest [the pandoc FAQ](http://johnmacfarlane.net/pandoc/faqs.html) and [the TeX - LaTeX Stack Exchange](http://tex.stackexchange.com/)
 
 ## John Doe Resume
 
@@ -32,20 +32,24 @@ xelatex seems to like "system fonts" such as TrueType (.ttf) or OpenType (.otf).
 
 The following commands generate a list of the "friendly names" known by the system font manager. Using the **font name** rather than an individual **font filename** seems to work better (a "font" with bold and italic styles is frequently split into multiple separate font files in the filesystem):
 
+This command uses fc-list to generate a list of system fonts. I could not get fc-list to output only the font name, so the "cut" trims off the comma and everything after:
 ```
-$ fc-list | cut -d: -f2 | cut -d, -f1 | awk '{$2=$2; print}' | sort | uniq
+$ fc-list : family | cut -f1 -d"," | sort
 Accanthis ADF Std
 Accanthis ADF Std No2
 Accanthis ADF Std No3
 Andale Mono
-Arial 
+Arial
 Arial Black
 Asana Math
 Bitstream Charter
-Cabin 
+Cabin
 Century Schoolbook L
 <snip>
 ```
+
+Alternative fc-list commands are in [fc-list-examples.md].
+
 
 The full list (from my system) is in [samples_xelatex/list_of_xelatex_usable_fonts.txt](samples_xelatex/list_of_xelatex_usable_fonts.txt)
 

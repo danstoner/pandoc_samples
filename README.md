@@ -90,6 +90,10 @@ The full list (from my system) is in [samples_pdflatex/list_of_pdflatex_usable_f
 
 Note that I could not get the font (fontfamily) to be applied unless I specified a template file also. The default.latex template installed on my system (with Ubuntu-packaged pandoc) did not seem to work so I used the latest default.latex from https://github.com/jgm/pandoc-templates and put it in the same directory as the source markdown file.
 
+```
+$ wget https://github.com/jgm/pandoc-templates/raw/master/default.latex
+```
+
 The following command generates a PDF with the specified font using the pdflatex engine:
 ```
 $ # single incantation

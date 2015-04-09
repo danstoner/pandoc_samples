@@ -1,8 +1,5 @@
 The fc-list command's help and man page do not give great information on the --format (-f) option or how to specify specific fields in the output.
 
-
-The following commands generate a list of the "friendly names" 
-
 The fc-list command can be used generate a list of system font "friendly names" known by the system font manager (via fontconfig).
 
 ```
@@ -20,7 +17,7 @@ Century Schoolbook L
 <snip>
 ```
 
-While using pandoc with xelatex engine, I needed the font name (only the portion before the comma in the "family" field). Note the example above includes "Latin Modern Mono,LM Mono 10" but pandoc needs "Latin Modern Mono" to find the font. I could not get fc-list to output only the font name, so the "cut" trims off the comma and everything after:
+While using pandoc with xelatex engine, I needed the font name (only the portion before the comma in the "family" field). Note the example above includes "Latin Modern Mono,LM Mono 10" but pandoc needs "Latin Modern Mono" to find the font. I could not get fc-list to output only the font name, so the "cut" trims off the comma and everything after in the following example:
 ```
 $ fc-list : family | cut -f1 -d"," | sort
 Accanthis ADF Std
@@ -37,7 +34,7 @@ Century Schoolbook L
 ```
 
 
-This variation uses the --format (-f) option and produces output similar to the above example:
+The following variation uses the --format (-f) option and produces output similar to the above example:
 ```
 $ fc-list --format="%{family}\n" | cut -f1 -d, | sort | uniq
 Accanthis ADF Std
@@ -53,7 +50,7 @@ Century Schoolbook L
 <snip>
 ```
 
-The following commands generate a list of the "friendly names" known by the system font manager. Using the **font name** rather than an individual **font filename** seems to work better (a "font" with bold and italic styles is frequently split into multiple separate font files in the filesystem):
+My original solution using multiple cuts and awk before I dug into the fc-list command-line options:
 
 ```
 $ fc-list | cut -d: -f2 | cut -d, -f1 | awk '{$2=$2; print}' | sort | uniq

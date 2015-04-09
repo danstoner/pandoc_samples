@@ -30,9 +30,7 @@ There are subtle variations between the options, templates, and fonts that are u
 
 xelatex seems to like "system fonts" such as TrueType (.ttf) or OpenType (.otf). The TeX Gyre fonts also worked.
 
-The following commands generate a list of the "friendly names" known by the system font manager. Using the **font name** rather than an individual **font filename** seems to work better (a "font" with bold and italic styles is frequently split into multiple separate font files in the filesystem):
-
-This command uses fc-list to generate a list of system fonts. I could not get fc-list to output only the font name, so the "cut" trims off the comma and everything after:
+The following commands generate a list of the "friendly names" known by the system font manager. Using the **font name** rather than an individual **font filename** seems to work better (a "font" with bold and italic styles is frequently split into multiple separate font files in the filesystem). I could not get fc-list to output only the font name, so the "cut" trims off the comma and everything after:
 ```
 $ fc-list : family | cut -f1 -d"," | sort
 Accanthis ADF Std
@@ -48,7 +46,7 @@ Century Schoolbook L
 <snip>
 ```
 
-Alternative fc-list commands are in [fc-list-examples.md].
+Alternative fc-list commands are in [fc-list-examples.md](fc-list-examples.md).
 
 
 The full list (from my system) is in [samples_xelatex/list_of_xelatex_usable_fonts.txt](samples_xelatex/list_of_xelatex_usable_fonts.txt)

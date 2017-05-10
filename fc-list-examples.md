@@ -38,7 +38,7 @@ Century Schoolbook L
 
 The following variation uses the --format (-f) option and produces output similar to the above example:
 ```
-$ fc-list --format="%{family}\n" | sort | uniq
+$ fc-list --format="%{family[0]}\n" | sort | uniq
 Accanthis ADF Std
 Accanthis ADF Std No2
 Accanthis ADF Std No3

@@ -38,7 +38,7 @@ Century Schoolbook L
 
 The following variation uses the --format (-f) option and produces output similar to the above example:
 ```
-$ fc-list --format="%{family}\n" | cut -f1 -d, | sort | uniq
+$ fc-list --format="%{family}\n" | sort | uniq
 Accanthis ADF Std
 Accanthis ADF Std No2
 Accanthis ADF Std No3
@@ -52,19 +52,3 @@ Century Schoolbook L
 <snip>
 ```
 
-My original solution used multiple cuts and awk before I dug into the fc-list command-line options:
-
-```
-$ fc-list | cut -d: -f2 | cut -d, -f1 | awk '{$2=$2; print}' | sort | uniq
-Accanthis ADF Std
-Accanthis ADF Std No2
-Accanthis ADF Std No3
-Andale Mono
-Arial 
-Arial Black
-Asana Math
-Bitstream Charter
-Cabin 
-Century Schoolbook L
-<snip>
-```
